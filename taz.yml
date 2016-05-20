@@ -1,0 +1,12 @@
+image: busybox
+prepare:
+    - echo "hi"
+    - echo "hello"
+process:
+    job1:
+        - echo "job1"
+        - echo "job3"
+    job2:
+        - echo "job2"
+    job3:
+        - echo "job3"
